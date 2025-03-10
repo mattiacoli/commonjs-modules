@@ -8,7 +8,7 @@ const hobbies = require("./hobbies")
  * Creates an object representing a person with their full name and hobbies.
  *
  * @returns {Object} An object containing the person's full name and hobbies.
- * @property {string} fullName - The full name of the person.
+ * @property {Object} fullName - an object cointaining the persons's first name and last name.
  * @property {string[]} hobbies - An array of the person's hobbies.
  */
 function getPeopleObj (){
